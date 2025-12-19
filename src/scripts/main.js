@@ -1,6 +1,6 @@
 'use strict';
 
-const inputElements = [...document.querySelectorAll('.field-text')];
+const inputElements = [...document.querySelectorAll('form input')];
 
 inputElements.forEach((el) => {
   const parentEl = el.parentElement;
